@@ -1,19 +1,17 @@
 function confirmEnding(str, target) {
-  var myWord = str;
-  var lastWord = str.split(' ');
-  var lastWordLength = lastWord[lastWord.length - 1];
-  var targetLength = target.length;
-  var lastWordSlice = lastWordLength.slice(lastWord.length-2 - targetLength);
-  if(myWord.charAt(myWord.length - 1) == target){
+  
+  if(target == str){
     return true;
-  } else if(lastWord[lastWord.length - 1] == target){
+  } else if(target == str.charAt(str.length - 1)){
       return true;
-  } else if(lastWordSlice == target){
-      return true;
-    } else {
-        return false;
-      }
-
+    } else if(target == str.substring(str.length - target.length)){
+        return true;
+      } else {
+          return false;
+        }
+  
+   
+ 
 }
 
 confirmEnding("I like dance", "ance");
