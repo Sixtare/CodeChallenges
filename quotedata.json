@@ -1,0 +1,16 @@
+{
+   "popular-quotes":[
+      {
+         "quote":"Don't cry because it's over, smile because it happened.",
+         "person":"Dr. Seuss"
+      },
+      {
+         "quote":"Be yourself everyone else is already taken.",
+         "person":"Oscar Wilde"
+      },
+      {
+         "quote":"Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+         "person":"Albert Einstein"
+      }
+   ]
+}
